@@ -1,0 +1,18 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "html-report": "cypress run --spec cypress/e2e/counter.cy.js --browser edge --headed",
+    "test": "cypress open --e2e --browser edge"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.3",
+    "cypress-mochawesome-reporter": "^3.8.0",
+    "oracledb": "^6.3.0"
+  }
+}

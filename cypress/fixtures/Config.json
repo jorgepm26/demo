@@ -1,0 +1,57 @@
+{
+  "closeContract": {
+    "skipOutputPhotos": true,
+    "skipPayment": false
+  },
+  "counter": {
+    "booking": {
+      "extras": {
+        "babySeat": false,
+        "prepaidGas": false
+      },
+      "insuranceCDW": true,
+      "maxDaysWalking": 1,
+      "minHoursLOC": 3,
+      "tariffPerDay": 25,
+      "useLocal": false
+    },
+    "search": {
+      "simpleSearch": true,
+      "options": {
+        "idAdvancedSearch": 4,
+        "maxDaysRangePickup": 10,
+        "searchBooking": true
+      }
+    },
+    "shuttle": {
+      "request": true,
+      "options": {
+        "addPax": false
+      }
+    }
+  },
+  "europcar": {
+    "CIO": {
+      "modifyDriver": false,
+      "modifyAccountHolder": false
+    },
+    "modifyCIO": 1,
+    "upgradePackage": true
+  },
+  "environment": "qa",
+  "openContract": {
+    "changeLanguage": false,
+    "flagPayComplement": "C",
+    "flagPayWarranty": "F",
+    "packages": {
+      "request": true,
+      "insuranceCDW": true
+    },
+    "skipIsBiometrics": true
+  },
+  "viewDamages": 2,
+  "username": {
+    "idOffice": 4,
+    "CIO": "TEST"
+  }
+}
